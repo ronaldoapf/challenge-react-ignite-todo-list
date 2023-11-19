@@ -1,0 +1,10 @@
+.input {
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--gray-300);
+  background: var(--gray-500);
+  border: 1px solid var(--Gray-700, #0D0D0D);
+}

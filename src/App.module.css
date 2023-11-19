@@ -1,0 +1,51 @@
+.mainContainer {
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 41.5rem;
+  margin-top: -1.5rem;
+  margin: -1.5rem auto 0 auto;
+}
+
+.mainContainer > div {
+  gap: 1rem;
+  width: 100%;
+  display: flex;
+}
+
+.todosInfo {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.todosInfo div {
+  display: flex;
+  gap: 0.5rem; 
+}
+
+.todosInfo p {
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.todosInfo span {
+  background-color: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 62.4375rem;
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.todoListContainer {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
