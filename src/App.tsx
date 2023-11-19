@@ -95,7 +95,7 @@ export function App() {
         {todos.length === 0 ? (
           <Empty />
         ) : (
-          <>
+          <div className={styles.todoListContainer}>
             {todos.map(item => {
               return (
                 <CheckTodo 
@@ -106,7 +106,7 @@ export function App() {
                 />
               )
             })}
-          </>
+          </div>
         )}
       </main>
     </>
